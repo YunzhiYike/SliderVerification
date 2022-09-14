@@ -1,7 +1,10 @@
-# 移动滑块验证识别库
+# No.1 移动滑块验证识别库 👍
 
 ## 说明：滑块验证码识别库基于[Python](https://www.python.org/)+[Selenium](https://www.selenium.dev/)+`谷歌内核驱动`打造，本项目遵循开源本心和易用、实用、好用的原则。在此说明，请勿非法使用否则后果自负！
 
+# No.2 图形识别库 `ykocr` 👍
+
+## 🌲 说明：`ykocr` 整合市场比较实用的 `ocr`识别库
 
 ## 支持平台
 - [x] 抖音
@@ -9,6 +12,7 @@
 - [ ] 腾讯
 - [ ] 百度
 - [ ] 京东
+- [x] 普通验证码
 
 
 ## 使用教程
@@ -30,4 +34,16 @@ if __name__ == '__main__':
     startMove(web, x, '//*[@id="secsdk-captcha-drag-wrapper"]/div[2]')
 
 ```
+### 图片验证码文字识别
+```python
+from ykocr import ykocr
+
+if __name__ == '__main__':
+    ocr = ykocr()
+    res = ocr.imgToText('1.png')
+    print(res)
+
+```
+
+[云知易客-官网](http://yunzhiyike.com)
 

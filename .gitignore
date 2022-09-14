@@ -11,8 +11,8 @@ vendor/
 .DS_Store
 *.lock
 .phpunit*
-test/cover/
-test/pressure/
-test/jmeter.log
+ykocr/cover/
+ykocr/pressure/
+ykocr/jmeter.log
 business-flow-doc
 public/

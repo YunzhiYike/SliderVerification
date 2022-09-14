@@ -74,3 +74,8 @@ def startMove(web, distance, element):
 
 
 
+
+if __name__ == '__main__':
+   h1 = 'https://p9-catpcha.byteimg.com/tos-cn-i-188rlo5p4y/c68cfe2aee6d48f7a207d26bcacaa5e8~tplv-188rlo5p4y-2.jpeg'
+   h2 = 'https://p9-catpcha.byteimg.com/tos-cn-i-188rlo5p4y/1cf45172db0445439a28fb698923c5cb~tplv-188rlo5p4y-1.png'
+   print(getTargetSliderPointX(h1,h2))
